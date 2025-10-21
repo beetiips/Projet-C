@@ -13,7 +13,7 @@ int main(void) {
     int chosen_action = 0;
     int loop = 0;
         while (loop < 20) {
-            printf("Chose what you'd like to do:\n Create a shape = 1\n Create a Patrick = 2\n Modify a shape = 3\n Delete a shape = 4\n Exit the editor = 0\n");
+            printf("Chose what you'd like to do:\n Create a shape = 1\n Create a Patrick = 2\n Modify a shape = 3 (Not yet available)\n Delete a shape = 4 (Not yet available)\n Exit the editor = 0\n");
             scanf("%d", &chosen_action);
         if(chosen_action == 0) {
             printf("Exiting the editor.\n");
