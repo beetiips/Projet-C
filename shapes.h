@@ -56,6 +56,22 @@ typedef struct shapes_you_made {
     struct shapes_you_made *next;
 }shapes_you_made, *DList;
 
+typedef enum shapes {
+    LINE,
+    ELLIPSE,
+    RECTANGLE,
+    POLYLINE,
+    POLYGONE,
+} shapes_enum;
+
+typedef union shapes_un {
+    line_t LINE;
+    ellipse_t ELLIPSE;
+    rectangle_t RECTANGLE;
+    poly_points POLYLINE;
+    poly_points POLYGONE;
+} shapes_union;
+
 
 List new_list(void);
 bool is_empty_list(List li);
