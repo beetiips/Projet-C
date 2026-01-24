@@ -13,3 +13,7 @@ The user can visualise the shapes they made in the .svg file.
 ### TO COME
 
 The user will be able to pivot the shape. The user will be able to choose to modify any shape they made, by entering the new data points. They could also change the color of the line. The user will choose to delete any shape they made.
+
+## More context :
+
+This project was the first made in my first year at CODA Dijon, so we could have our first experience in coding.
